@@ -136,6 +136,7 @@ SESSION_COOKIE_SECURE = True
 
 # Render static file settings
 import os
+import dj_database_url
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
