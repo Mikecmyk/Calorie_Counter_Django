@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'default-insecure-key')
 # DEBUG is True locally, False in production (Render)
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['127.0.0.1', '.render.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.render.com', 'calorie-counter-django.onrender.com']
 
 
 # Application definition
