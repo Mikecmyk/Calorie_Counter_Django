@@ -14,4 +14,3 @@ Thumbs.db
 # --- Environment and Security ---
 # IMPORTANT: Never commit the settings file that contains secret keys/passwords!
 # We will assume a production settings file will be created later, but for now:
-calorie_counter_project/settings.py
